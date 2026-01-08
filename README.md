@@ -119,22 +119,25 @@ We acknowledge that no model is perfect.
 ```bash
 git clone [https://github.com/your-username/concrete_data_analysis.git](https://github.com/your-username/concrete_data_analysis.git)
 cd concrete_data_analysis
-
-2. Install Dependencies
+```
+###2. Install Dependencies
 This project requires several advanced machine learning libraries.
 
-Bash
+```Bash
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 pip install optuna xgboost lightgbm catboost
 pip install shap lime
 pip install mapie puncc ngboost pgbm
+
+```
 3. Run the Notebooks
 Start the Jupyter environment:
 
-Bash
+```Bash
 
 jupyter notebook
+```
 Navigate to the Hyperparameter_Tuning folder to start optimization, or Model_Explainations to visualize results.
 
 This repository is maintained for research and educational purposes in the field of Civil Engineering Data Analytics.
