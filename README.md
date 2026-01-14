@@ -106,4 +106,5 @@ We provide statistical guarantees.
 -   **Calibration**: We use a calibration set (subset of `train.csv`) to adjust our intervals.
 -   **Guarantee**: The generated intervals `[Lower, Upper]` are mathematically guaranteed to contain the true scour depth with a probability of $1-\alpha$ (e.g., 90%), assuming the data is exchangeable.
 
+    <sup>**</sup>This repository is a collaborative project developed by Prakriti Bisht and Danesh Selwal.
 ---
